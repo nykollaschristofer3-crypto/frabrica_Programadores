@@ -1,0 +1,14 @@
+#autor: Nykollas Christofer
+# desafio 01 - Projeto desvio condicional
+ 
+#criação de variavel
+nome = input("Digite seu nome: ")
+pedidos = int(input("escolha seu pedido:1=café, 2=suco, 3=água: "))
+if pedidos == 1:
+    print(f'{nome}, você escolheu café!')
+elif pedidos == 2:
+    print(f'{nome}, você escolheu suco!')
+elif pedidos == 3:
+    print(f'{nome}, você escolheu água!')
+else:
+    print(f'{nome}, pedido inválido!')
